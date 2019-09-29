@@ -46,7 +46,7 @@ a:hover {
 }
 
 
-/*
+
 @keyframes background {
   50%   { background: black; }
   100%  { background: white; }
@@ -55,7 +55,7 @@ a:hover {
 body { 
   animation: background 8000ms alternate infinite;
 }
-*/
+
 
 
 
