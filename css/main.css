@@ -1,0 +1,64 @@
+
+/* reset styles */
+@font-face {
+    font-family: 'univers_extendedbold';
+    src: url('univers_extended_bold-webfont.woff2') format('woff2'),
+         url('univers_extended_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* begin styles */
+
+body {
+  color: white;
+  background-color: grey;
+  font-family: "univers_extendedbold";
+  height: 200vh;
+  
+
+
+
+}
+h1{font-size: 100px}
+
+
+h7{font-size: 40px}
+
+h3 {
+  letter-spacing: 5px;
+
+}
+
+
+a, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*
+@keyframes background {
+  50%   { background: black; }
+  100%  { background: white; }
+}
+
+body { 
+  animation: background 8000ms alternate infinite;
+}
+*/
+
+
+
+body.colorful {
+  background-image: url("preview.jpg");
+
