@@ -1,0 +1,47 @@
+/* this defines the helper grid */
+.gridlines {
+  /* change these as you need */
+  --grid-size:50px;
+  --grid-color:blue;
+}
+
+/* anything else you want to do 👇 */
+
+h1 {
+  color:white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
+  font-size: 45px;
+  padding-left: 20px;
+
+}
+
+a {
+  color:white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
+  font-size: 45px;
+  padding-left: 20px;
+
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+h2 {
+  color: white;
+  font-size: 14px;
+  width: 350px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding-left: 20px;
+}
+
+p {
+  color: white;	
+  font-size: 14px;
+  width: 350px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding-left: 30px;
+}
