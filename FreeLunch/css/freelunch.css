@@ -1,0 +1,18 @@
+html {
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+   background-image: url("130560.jpg");
+   background-repeat: no-repeat;
+    background-size: 1450px 800px;
+  -webkit-text-size-adjust: none; }
+
+  .highlight {
+  background: yellow;
+  color: blue;
+}
+
+#container {
+  max-width: 600px;
+
+}
