@@ -1,18 +1,109 @@
 html {
-  font-family: Courier, 'Courier New', monospace;
-  font-size: 20px;
+  background-image: url("mata-atlantica-atlantic-forest-in-brazil-royalty-free-image-935746242-1567619461.jpg");
+  background-repeat: no-repeat;
+  background-size: 1450px 800px; 
+}
+
+h1 {
+  font: bold 5em Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-   background-image: url("130560.jpg");
-   background-repeat: no-repeat;
-    background-size: 1450px 800px;
-  -webkit-text-size-adjust: none; }
-
-  .highlight {
-  background: yellow;
-  color: blue;
+  color: white;
 }
 
-#container {
-  max-width: 600px;
-
+#button1 {
+  position: absolute;
+  left: 15px;
+  top: 250px;
 }
+
+#button2 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+#button3 {
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}
+
+#button4 {
+  position: absolute;
+  left: 600px;
+  top: 250px;
+}
+
+#button5 {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+
+label {
+  box-shadow: inset 0 1px 0 0;
+  background-color: #0000ff;
+  border-radius: 3px;
+  border: 1px solid #b3b3b3;
+  display: inline-block;
+  color: #ffffff;
+  font: bold 15px Helvetica, Arial, sans-serif;
+  padding: 10px 10px;
+  left: 100px;
+  top: 100px;
+}
+
+input {
+  opacity: 0;
+}
+
+input:checked + img {
+  display: block;
+}
+
+/* Shared display and position values for all .display-image elements */
+.display-image1,
+.display-image2,
+.display-image3,
+.display-image4,
+.display-image5 {
+  display: none;
+  position: relative;
+}
+
+/* IMAGE POSITIONING VALUES */
+
+/* Image 1 */
+.display-image1 {
+  left: 30px;
+  top: 150px;
+}
+
+/* Image 2 */
+.display-image2 {
+  left: 800px;
+  top: 0px;
+}
+
+/* Image 3 */
+.display-image3 {
+  left: 50px;
+  top: 110px;
+}
+
+/* Image 4 */
+.display-image4 {
+  left: 500px;
+  top: -200px;
+}
+
+/* Image 5 */
+.display-image5 {
+  left: 310px;
+  top: 300px;
+}
+
+
+
+
+
