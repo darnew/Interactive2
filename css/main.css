@@ -8,6 +8,8 @@
     font-style: normal;
 
 }
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -15,9 +17,15 @@
 
 /* begin styles */
 
+html {
+  background-image: url("preview.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 2000px; 
+}
+
 body {
   color: white;
-  background-color: grey;
+ 
   font-family: "univers_extendedbold";
   height: 200vh;
   
@@ -25,7 +33,7 @@ body {
 
 
 }
-h1{font-size: 100px}
+h1{font-size: 40px}
 
 
 h7{font-size: 40px}
@@ -34,6 +42,8 @@ h3 {
   letter-spacing: 5px;
 
 }
+
+h4{font-size: 100px}
 
 
 a, a:visited {
@@ -46,7 +56,7 @@ a:hover {
 }
 
 
-
+/*
 @keyframes background {
   50%   { background: black; }
   100%  { background: white; }
@@ -61,4 +71,6 @@ body {
 
 body.colorful {
   background-image: url("preview.jpg");
+
+/*
 
